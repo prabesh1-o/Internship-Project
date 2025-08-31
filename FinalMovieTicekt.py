@@ -108,7 +108,7 @@ def views_home(query=None):
     """
 
     return html
-
+ 
 # Create hall
 def views_create(query):
     name = query.get("name")
